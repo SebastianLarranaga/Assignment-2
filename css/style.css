@@ -65,8 +65,21 @@ nav a {
     font-size: 22px;
 }
 
+nav a:hover {
+    color: lightsteelblue;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 .intro-paragraph {
-    background-color: #228B22;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
 }
 
 footer {
@@ -89,6 +102,8 @@ footer p {
 
 p {
     margin: 10px 0;
+    line-height: 1.6;
+    padding: 10px;
 }
 
 
